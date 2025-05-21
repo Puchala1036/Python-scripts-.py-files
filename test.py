@@ -1,20 +1,16 @@
-#Mathematical Operations
 
-n1=input(" enter the number1: ")
-n2=input(" enter the number2: ")
-n1=int(n1)
-n2=int(n2)
-n3=n1+n2
-n4=n1-n2
-n5=n1*n2
-n6=n1/n2
-print("Addition:",  n3 )
-print("Subtraction: ", n4 )
-print("Multiplication: ", n5  )
-print("Division: ", n6 )
-
-#Personalized Greeting
-input1=input(" first name ")
-input2=input(" last name ")
-full_Name=input1+input2
-print(" Hello, ", full_Name,"!" ," Welcome to the python program ")
+#Check if a Number is Even or Odd
+Num=int(input("enter the Number: "))
+if(Num%2 ==0):
+    {
+        print( Num , "it is even number  ")
+    }
+else:
+    {
+        print( Num ,"it is odd number  ")
+    }
+#Sum of Integers from 1 to 50 Using a Loop    
+total = 0
+for i in range(1,50):
+total += i
+print (total)
